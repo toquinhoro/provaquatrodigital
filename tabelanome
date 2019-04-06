@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>Nome</title>
+    <meta charset="utf-8">
+
+<style>
+
+h2 {
+font-family: arial, sans-serif;
+}
+
+table, th, td {
+  font-family: arial, sans-serif;
+  border: 2px solid black;
+  border-collapse: collapse;
+
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+#title{
+	background-color: #f50606;
+}
+
+</style>
+
+  </head>
+  
+<body>
+
+<h2>Tabela Nomes</h2>
+
+	<table>
+		<thead id="title">
+			<tr><th>Nome</th></tr>
+		</thead> 
+			<tr><td>João</td></tr>
+			<tr><td>Maria</td></tr>
+	</table>
+
+  </body>
+</html>
